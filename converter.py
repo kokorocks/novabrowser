@@ -22,7 +22,7 @@ def replace_with_json(code, json_string=None):
 
     # First pass: Replace keys with corresponding values wrapped in markers.
     # Use markers with non-word characters so subsequent word-boundary matches won't hit them.
-    '''
+    
 
 def replace_outside_quotes(code, to_replace, replacement):
     # pattern for strings inside quotes
